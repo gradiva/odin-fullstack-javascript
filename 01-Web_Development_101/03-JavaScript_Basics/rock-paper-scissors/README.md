@@ -13,6 +13,8 @@ The UI is not the goal in this project, so I did focus on the JavaScript part in
 
 game.js is just the JavaScript console game.
 
+I will come back here at some point and build a UI, task added to my trello board.
+
 ## View in browser
 
 [Here](https://enigmatic-caverns-74021.herokuapp.com/)
