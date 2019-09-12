@@ -7,7 +7,12 @@ following The Odin Project [Web Development 101](https://www.theodinproject.com/
 
 This project is about building a Rock Paper Scissors game based on JavaScript. 
 
-
 ## Notes
 
-The UI is not the goal in this project, so I did focus on the JavaScript part instead. 
+The UI is not the goal in this project, so I did focus on the JavaScript part instead, there is no UI. 
+
+game.js is just the JavaScript console game.
+
+## View in browser
+
+[Here](https://enigmatic-caverns-74021.herokuapp.com/)
