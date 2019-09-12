@@ -9,11 +9,11 @@ This project is about building a Rock Paper Scissors game based on JavaScript.
 
 ## Notes
 
-The UI is not the goal in this project, so I did focus on the JavaScript part instead, there is no UI. 
+The UI is not the goal in this project, so I did focus on the JavaScript part instead, there is no style. 
 
 game.js is just the JavaScript console game.
 
-I will come back here at some point and build a UI, task added to my trello board.
+I will come back here at some point and build a nice UI, task added to my trello board.
 
 ## View in browser
 
