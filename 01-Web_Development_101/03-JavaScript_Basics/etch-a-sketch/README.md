@@ -9,8 +9,8 @@ This project is about building a Etch-A-Sketch browser version based on JavaScri
 
 ## Notes
 
-Use of Grid.
+I use CSS Grid Layout in this project.
 
 ## View in browser
 
-To view in browser click [here]
+To view in browser click [here](https://limitless-crag-49299.herokuapp.com/).
