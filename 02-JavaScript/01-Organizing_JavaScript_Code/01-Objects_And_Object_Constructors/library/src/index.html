@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Library</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>My Library</h1>
+    <nav class="nav-menu">
+      <button class="new-book-button">New Book</button>
+    </nav>
+  </header>
+  <br>
+  <main class="main">
+    <div class="main-container">
+      <div class="library-container">
+        <div class="library-header">
+          <div class="cell column-title">
+            <h3>Title</h3>
+          </div>
+          <div class="cell column-author">
+            <h3>Author</h3>
+          </div>
+          <div class="cell column-year">
+            <h3>Year</h3>
+          </div>
+          <div class="cell column-status">
+            <h3>Status</h3>
+          </div>
+          <div class="cell column-delete"></div>
+        </div>
+        <div class="library-books">
+        </div>
+        <div class="library-add add-book-form">
+          <div class="cell column-title"><input type="text" class="title" placeholder="Title"></div>
+          <div class="cell column-author"><input type="text" class="author" placeholder="Author"></div>
+          <div class="cell column-year"><input type="number" class="year" placeholder="Year"></div>
+          <div class="cell column-status">
+            <select class="status">
+              <option value="yes">Yes</option>
+              <option value="in-progress">In Progress</option>
+              <option value="no">Not yet</option>
+            </select>
+          </div>
+          <div class="cell column-delete"><button class="submit-book-button" type="button">Submit</button></div>
+        </div>
+      </div>
+    </div>
+    <br>
+    </section>
+  </main>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Small Library app in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --fix",
+    "start": "http-server src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradiva/library.git"
+  },
+  "author": "Leticia Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradiva/library/issues"
+  },
+  "homepage": "https://github.com/gradiva/library#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.1.0"
+  },
+  "engines": {
+    "node": "10.15.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

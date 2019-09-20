@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #BFD8D2;
+  font-family: verdana;
+}
+
+.header {
+  display: flex; 
+  justify-content: center;
+  background-color: #BFD8D2;
+  color: #DF744A;
+  margin: 30px;
+}
+
+.nav-menu {
+  align-self: flex-end;
+  margin: 0 auto; 
+}
+
+.nav-menu button {
+  align-self: flex-end;
+  color: #DF744A;
+  background-color: #FEDCD2;
+  border: 2px solid #8e835e; 
+  font-weight: bold;
+  margin: 10px;
+  padding: 12px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+}
+
+.nav-menu button:hover, :focus, 
+.column-delete button:hover, :focus {
+  border: 1px solid #f2eded;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  font-weight: normal;
+}
+
+.main {
+  background-color: #BFD8D2;
+}
+
+.library-container {
+  border-color: #F5F5F5;
+  margin-left: 30px; 
+  margin-right: 30px;
+}
+
+.book, .library-header, .library-add {
+  display: flex;
+  flex-flow: row wrap;
+  color: #DC9239;
+  background-color: #FEDCD2;
+}
+
+.library-header {
+  background-color: #f0c5b8;
+  color: #F5F5F5;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.library-books .book:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+.library-books .book:nth-child(even) {
+  background-color: #FEDCD2;
+}
+
+.library-books .book:hover {
+  background-color: #f0c5b8; 
+}
+
+.book {
+  padding: 3px;
+}
+
+.cell {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.column-delete button {
+  color: #DF744A;
+  background-color: #FEDCD2;
+  border: 2px solid #8e835e; 
+  font-weight: bold;
+  margin: 2px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+}
+
+.add-book-form {
+  display: none;
+  background-color: #f0c5b8;
+}
+
+.add-book-form input {
+  background-color: #F5F5F5;
+  border: 1px solid #AAA;
+  border-radius: 24px;
+  height: 20px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.add-book-form input:hover, :focus {
+  border: 1px solid #f2eded;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.status {
+  display: block;
+  color: #DC9239;
+  font-size: 16px;
+}
+
+.status::-ms-expand {
+  display: none;
+}
+
+.status:hover {
+  border-color: #888;
+}
+
+.status:focus {
+  border-color: #AAA;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #DF744A; 
+  outline: none;
+}
+
+.status option {
+  font-weight:normal;
+}
