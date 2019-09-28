@@ -1,0 +1,39 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe browser game based on JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradiva/tic-tac-toe.git"
+  },
+  "author": "Leticia Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradiva/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/gradiva/tic-tac-toe#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.1",
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
