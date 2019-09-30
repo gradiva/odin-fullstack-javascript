@@ -14,3 +14,7 @@ This repository contains most of the uploadable projects for [The Odin Project t
   - TDD from Test First Ruby
 - **Ruby On Rails:** [Blogger](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/05-Web_Development_Frameworks/blogger)
   - Jumpstart Labs' tutorial to build a blog
+
+### JavaScript
+- **Objects and Object Constructors:** [Library](https://github.com/gradiva/odin-fullstack-javascript/tree/master/02-JavaScript/01-Organizing_JavaScript_Code/01-Objects_And_Object_Constructors/library)
+- **Factory Functions and the Module Pattern:** [Tic-tac-toe](https://github.com/gradiva/odin-fullstack-javascript/tree/master/02-JavaScript/01-Organizing_JavaScript_Code/02-Factory_Functions_and_Module_Pattern/tic-tac-toe)
