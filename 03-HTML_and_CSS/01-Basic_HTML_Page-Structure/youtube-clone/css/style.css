@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+	font-size: 14px; 
+	font-family: 'Roboto', 'Arial', sans-serif;  
+	color: #212121;  
+}
+/********************* Grid layout ***************************/
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  grid-area: header;
+  background-color: white;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  grid-area: main;
+  flex-shrink: 0;
+	height: auto;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+section {
+  grid-area: section;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+aside {
+  width: 90%;
+	height: auto;
+  grid-area: aside;
+  overflow: scroll;
+}
+
+#main-container {
+  display: grid;
+  grid-gap: 1.5em;
+  /* margin: 0 1.8em 0 1.8em; */
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-rows:     auto;
+  grid-template-areas:    "header header header"
+                          "main main aside"
+                          "section section aside";  
+}
+
+/********************* General ***************************/
+a, a:hover, a:visited, a:active, a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+i span {
+	display: none;
+}
+
+.bold-text {
+	font-weight: 500;
+}
+
+.grey-bott-border {
+	border-bottom: 0.5px solid #eeeeef;
+}
+
+.grey-text {
+	color: #848484;
+}
+
+.interact-options {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 0.9em;
+	letter-spacing: 0.3px;
+}
+
+.interact-options p {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.interact-options i:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+.subtitles {
+	font-size: 0.9em;
+  line-height: 1.4em;
+  margin-bottom: 2px;
+	color: #848484;
+}
+
+/********************* Top Nav bar ***************************/
+
+.nav-bar-left {
+  margin: 8px 0 0 27px;
+}
+
+header .menu { 
+  height: 45px; 
+  margin-bottom: 0; 
+}
+
+header .logo { 
+  height: 45px; 
+  margin-left: -10px;
+}
+
+.search-container {
+  display:flex;
+  margin: 15px 0 0 0px;
+}
+
+.search {
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 2px #eee;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0 6px;
+  height: 30px;
+  width: 550px;
+}
+
+.search-button {
+  background: #f8f8f8;
+  border: 1px solid #d3d3d3;
+  box-shadow: inset 0 1px 2px #eee;
+  box-sizing: border-box;
+  height: 28px;
+  padding-left: 0 6px; 
+  width: 27px; 
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-bar-menu {
+  margin: 8px 10px 0 20px;
+  height: 50px; 
+}
+
+/********************* Video Main ***************************/
+
+.video-container {
+	width: 90%;
+	line-height: 2.4em;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 52.4%; /*16:9*/
+  padding-top: 30px; 
+  height: 0; 
+  overflow: hidden;
+}
+ 
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/********************* Video info data ***************************/
+
+h1 {
+	font-size: 1.4em;
+	padding-top: 10px;
+	font-weight: normal;
+}
+
+.video-info-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.video-data {
+	display: flex;
+	justify-content: space-between;
+  padding-bottom: 2px;
+}
+
+.number-views {
+	font-size: 1.2em;
+	width: 50%;
+}
+
+.options {
+	width: auto;
+	color: #a4a4a4;
+	position: relative;
+}
+
+.interact-options i:last-child {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.blue-bar {
+	background-color: #2793e6;
+	height: 2px;
+	width: 98px;
+}
+
+.transparent-bar {
+	background-color: #d0d0d0;
+	height: 2px;
+	width: 103px;
+	position: absolute;
+}
+
+/********************* Video description ***************************/
+
+.video-text {
+	margin-left: 64px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.profile-pic {
+	margin-top: 18px;
+	margin-right: 10px;
+	background-color: #689f39;
+	float: left;
+	width: 48px;
+	height: 48px;
+	border-radius:  50%;
+	color: #fff;
+	display:  flex;
+	justify-content:  center;
+	align-items:  center;
+	font-size: 1.4em;
+}
+
+.subscribe-button {
+	margin-top: 20px;
+	float: right;
+	text-align: center;
+  width: 130px;
+  color: #fff;
+  background-color: #FF0000;
+  padding: 5px 0;
+  border-radius: 2px;
+	cursor: pointer;
+}
+
+.subscribe-button span {
+	padding-left: 4px;
+  opacity: 0.8;
+	font-weight: 500;
+}
+
+.video-info {
+	padding-top: 20px;
+  padding-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.show-more {
+	color: #848484;
+	font-size: 0.9em;
+	cursor: pointer;
+	line-height: 2.4em;
+}
+
+/********************* Comments ***************************/
+
+.comments-container {
+	width: 90%;
+	height: auto;
+}
+
+.comments-top * {
+	display: inline-block;
+}
+
+.comments-top p:last-of-type {
+	padding-left: 25px;
+	padding-right: 10px;
+  letter-spacing: 0.3px;
+}
+
+.comments-top i {
+	padding-right: 10px;
+}
+
+#current-user {
+	background-color: #4373e0;
+	color: #a0c3fe;
+	width: 35px;
+	height: 35px;
+}
+
+.comment-section {
+	margin-left: 58px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.comment-details .profile-pic {
+	width: 40px;
+	height: 40px;
+}
+
+.comment-add {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.comment-text {
+	padding-top: 5px;
+	line-height: 1.3em;
+}
+
+.comment-interactions {
+	justify-content: flex-start;
+	margin-top: 10px;
+}
+
+.comment-date {
+	font-size: 0.8em;
+	display: inline-block;
+	padding-left: 7px;
+}
+
+/********************* Aside ***************************/
+
+.categ-title {
+	font-size: 1.3em;
+	padding: 25px 0 20px 0;
+}
+
+.autoplay-btn {
+	float: right;
+  padding-top: 25px;
+}
+
+.autoplay-btn i {
+	color: #e6e6e6;
+	padding-left: 10px;
+}
+
+.vid-duration {
+	float: right;
+  color: #fff;
+  background: #000;
+  opacity: 0.7;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-size: 0.8em;
+  transform: translatey(-20px);
+  margin-right: 5px;
+}
+
+.sugg-vid-wrapper {
+	display: flex;
+}
+
+.sugg-vid {
+	width: 168px;
+}
+
+.sugg-vid-desc {
+	margin-left: 10px;
+}
+
+.sugg-vid-title {
+	margin-bottom: 5px;
+	line-height: 1.1em;
+	font-size: 1.1em;
+}
+
+.suggestions {
+	padding-top: 15px;
+}
+
+.show-sugg-vid {
+	text-align: center;
+	border: 1px solid #eeeeef;
+	background-color: #eeeeef;
+	border-radius: 2px;
+}
+
+/***********Profile pics*********/
+
+.pic1 {
+	background-image: url('../images/cat.jpg');
+}
+.pic2 {
+	background-image: url('../images/puma.jpg');
+}
+.pic3 {
+	background-image: url('../images/duck.jpg');
+}
+.pic4 {
+	background-image: url('../images/gorilla.jpg');
+}
+.pic5 {
+	background-image: url('../images/delorean.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+	background-repeat: no-repeat;
+	background-size: cover;
+}

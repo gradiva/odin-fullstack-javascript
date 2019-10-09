@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clone YouTube</title>
+</head>
+
+<body>
+  <div id="main-container">
+    <header>
+      <div class="nav-bar-left">
+        <img class="menu" src="images/menu.jpg" alt="Side menu">
+        <img class="logo" src="images/logo.jpg" alt="YouTube home">
+      </div>
+
+      <div class="search-container">
+        <input type="text" placeholder="Search" class="search disabled">
+        <div class="search-button">
+          <button type="submit">
+            <img class="search-icon" src="images/search.jpg" alt="Search Icon">
+          </button>
+        </div>
+      </div>
+
+      <div class="nav-bar-right">
+        <img class="nav-bar-menu" src="images/icons-menu.jpg" alt="Icons menu">
+      </div>
+    </header>
+
+    <main>
+
+      <div class="video-container">
+
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+        <h1>Contributing to Open Source Part I: The Easy Way</h1>
+        <div class="video-info-container">
+          <div class="video-data grey-bott-border">
+            <p class="number-views grey-text">49,911 views</p>
+            <div class="options">
+              <div class="interact-options grey-text">
+                <i class="fas fa-thumbs-up"><span>Thumbs up</span></i>
+                <p>296</p>
+                <i class="fas fa-thumbs-down"><span>Thumbs down</span></i>
+                <p>9</p>
+                <i class="fas fa-share"><span>Share</span></i>
+                <p>SHARE</p>
+                <i class="far fa-plus-square"><span>Add</span></i>
+                <i class="fas fa-ellipsis-h"><span>Other options</span></i>
+              </div>
+              <div class="transparent-bar">
+                <div class="blue-bar"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-description">
+            <div class="profile-pic">T</div>
+            <div class="subscribe-button">SUBSCRIBE <span> 797</span></div>
+            <div class="video-text">
+              <a class="owner-name bold-text" href="https://www.theodinproject.com/" target="_blank">The Odin
+                Project</a>
+              <p class="subtitles">Published on Feb 27, 2014</p>
+              <p class="video-info">How do you contribute to open source? In this video, I'll describe the easiest way
+                to make a simple contribution to an open source project -- without using the command line, a text
+                editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of</p>
+              <a href"#" class="show-more bold-text">SHOW MORE</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <section class="comments-container">
+      <div class="comments-top">
+        <p class="categ-title">12 Comments</p>
+        <p class="grey-text bold-text"><i class="fas fa-sort-amount-up"></i>SORT BY</p>
+      </div>
+
+      <div class="comment-details">
+        <div class="profile-pic" id="current-user">
+          <i class="fas fa-user-circle fa-2x"></i>
+        </div>
+        <div class="comment-section">
+          <p class="grey-text comment-add grey-bott-border comment-add">Add a public comment...</p>
+        </div>
+      </div>
+
+      <!--Fake comments: -->
+      <div class="comment-details">
+        <div class="profile-pic pic1">
+        </div>
+        <div class="comment-section">
+          <a class="comment-author bold-text" href="#" target="_blank">Fake person No.1</a>
+          <p class="grey-text comment-date">3 months ago</p>
+          <p class="comment-text">This video is very helpful! Instructions are easy to follow. Good job there, thanks
+            for
+            publishing!</p>
+          <div class="comment-interactions grey-text interact-options bold-text">
+            <i class="fas fa-thumbs-up"><span>Thumbs up</span></i>
+            <p>4</p>
+            <i class="fas fa-thumbs-down"><span>Thumbs down</span></i>
+            <p></p>
+            <p>REPLY</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment-details">
+        <div class="profile-pic pic2">
+        </div>
+        <div class="comment-section">
+          <a class="comment-author bold-text" href="#" target="_blank">Me</a>
+          <p class="grey-text comment-date">Yesterday</p>
+          <p class="comment-text">Hey there! Thanks for having a look at my fake YouTube page!</p>
+          <div class="comment-interactions grey-text interact-options bold-text">
+            <i class="fas fa-thumbs-up"><span>Thumbs up</span></i>
+            <p>2</p>
+            <i class="fas fa-thumbs-down"><span>Thumbs down</span></i>
+            <p></p>
+            <p>REPLY</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment-details">
+        <div class="profile-pic pic3">
+        </div>
+        <div class="comment-section">
+          <a class="comment-author bold-text" href="#" target="_blank">A very nice person</a>
+          <p class="grey-text comment-date">1 year ago</p>
+          <p class="comment-text">You know these comments are fake, right?</p>
+          <div class="comment-interactions grey-text interact-options bold-text">
+            <i class="fas fa-thumbs-up"><span>Thumbs up</span></i>
+            <p>1</p>
+            <i class="fas fa-thumbs-down"><span>Thumbs down</span></i>
+            <p></p>
+            <p>REPLY</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment-details">
+        <div class="profile-pic pic4">
+        </div>
+        <div class="comment-section">
+          <a class="comment-author bold-text" href="#" target="_blank">Funny guy</a>
+          <p class="grey-text comment-date">27 hours ago</p>
+          <p class="comment-text">Still reading? Here is a joke:</p>
+          <p class="comment-text"></p>
+          <p class="comment-text"></p>
+          <p class="comment-text">Actually... I don't know any...</p>
+          <div class="comment-interactions grey-text interact-options bold-text">
+            <i class="fas fa-thumbs-up"><span>Thumbs up</span></i>
+            <p></p>
+            <i class="fas fa-thumbs-down"><span>Thumbs down</span></i>
+            <p></p>
+            <p>REPLY</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment-details">
+        <div class="profile-pic pic5">
+        </div>
+        <div class="comment-section">
+          <a class="comment-author bold-text" href="#" target="_blank">Emmett</a>
+          <p class="grey-text comment-date">Some day of 1885</p>
+          <p class="comment-text">Marty meets his ancestor Seamus.</p>
+          <div class="comment-interactions grey-text interact-options bold-text">
+            <i class="fas fa-thumbs-up"><span>Thumbs up</span></i>
+            <p></p>
+            <i class="fas fa-thumbs-down"><span>Thumbs down</span></i>
+            <p></p>
+            <p>REPLY</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <aside>
+      <div class="up-next grey-bott-border">
+        <div class="autoplay-btn interact-options grey-text bold-text">AUTOPLAY<i
+            class="fas fa-toggle-on fa-2x"><span>Toggle</span></i></div>
+        <p class="categ-title">Up next</p>
+        <div class="sugg-vid-wrapper">
+          <div class="sugg-vid">
+            <img alt="" width="168" height="94"
+              src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAiks9toy1laAgbrWzRVvOiAijYqg">
+            <div class="vid-duration">7:11</div>
+          </div>
+          <div class="sugg-vid-desc">
+            <p class="sugg-vid-title bold-text">Contributing to Open Source Part II: The Real Way</p>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <p class="subtitles">The Odin Project</p>
+            </a>
+            <p class="subtitles">29K views</p>
+          </div>
+        </div>
+      </div>
+      <div class="suggestions">
+        <div class="sugg-vid-wrapper">
+          <div class="sugg-vid">
+            <img alt="" width="168" height="94"
+              src="https://i.ytimg.com/vi/mp0-QQQgv7s/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBa01G0jvVeGnxRTmwvDpZu5IJLBA">
+            <div class="vid-duration">10:37</div>
+          </div>
+          <div class="sugg-vid-desc">
+            <p class="sugg-vid-title bold-text">
+              Open Source Learning: David Preston at TEDxUCLA
+            </p>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <p class="subtitles">TEDx Talks</p>
+            </a>
+            <p class="subtitles">4.9K views</p>
+          </div>
+        </div>
+        <div class="sugg-vid-wrapper">
+          <div class="sugg-vid">
+            <img alt="" width="168" height="94"
+              src="https://i.ytimg.com/vi/o8NPllzkFhE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAxwM70j1EuDenSKPX90zryLHTplA">
+            <div class="vid-duration">21:31</div>
+          </div>
+          <div class="sugg-vid-desc">
+            <p class="sugg-vid-title bold-text">
+              The mind behind Linux | Linus Torvalds
+            </p>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <p class="subtitles">TED</p>
+            </a>
+            <p class="subtitles">2.2M views</p>
+          </div>
+        </div>
+        <div class="sugg-vid-wrapper">
+          <div class="sugg-vid">
+            <img alt="" width="168" height="94"
+              src="https://i.ytimg.com/vi/8e9QVNrAYpI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCgEqp6VqHuR4Qsz_okk76HDVQjyg">
+            <div class="vid-duration">4:54</div>
+          </div>
+          <div class="sugg-vid-desc">
+            <p class="sugg-vid-title bold-text">
+              8 ways to get started in open source
+            </p>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <p class="subtitles">Opensource.com</p>
+            </a>
+            <p class="subtitles">5.4K views</p>
+          </div>
+        </div>
+        <div class="sugg-vid-wrapper">
+          <div class="sugg-vid">
+            <img alt="" width="168" height="94"
+              src="https://i.ytimg.com/vi/XKu_SEDAykw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAOcnfdGrOG0Gv6KE-4C9lQ-DTcbA">
+            <div class="vid-duration">24:02</div>
+          </div>
+          <div class="sugg-vid-desc">
+            <p class="sugg-vid-title bold-text">How to: Work at Google — Example Coding/Engineering Interview</p>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <p class="subtitles">Life at Google</p>
+            </a>
+            <p class="subtitles">4.4M views</p>
+          </div>
+        </div>
+        <div class="sugg-vid-wrapper">
+          <div class="sugg-vid">
+            <img alt="" width="168" height="94"
+              src="https://i.ytimg.com/vi/EcojyBV4QJ4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCFUrZmR4ot40l-YU2LgF24okga_g">
+            <div class="vid-duration">11:06</div>
+          </div>
+          <div class="sugg-vid-desc">
+            <p class="sugg-vid-title bold-text">Why I left my job at Google (as a software engineer)</p>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <p class="subtitles">TechLead</p>
+            </a>
+            <p class="subtitles">1.6M views</p>
+          </div>
+        </div>
+        <div class="sugg-vid-wrapper">
+          <div class="sugg-vid">
+            <img alt="" width="168" height="94"
+              src="https://i.ytimg.com/vi/U5kIdtMJGc8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDrFUJTmIqNDQklkg8NOW9yjWlD4A">
+            <div class="vid-duration">23:08</div>
+          </div>
+          <div class="sugg-vid-desc">
+            <p class="sugg-vid-title bold-text">The mathematician who cracked Wall Street | Jim Simons</p>
+            <a href="https://www.theodinproject.com/" target="_blank">
+              <p class="subtitles">TED</p>
+            </a>
+            <p class="subtitles">1.3M views</p>
+          </div>
+        </div>
+      </div>
+      <div class="show-sugg-vid">
+        <a href"#" class="show-more bold-text">SHOW MORE</a>
+      </div>
+    </aside>
+  </div>
+</body>
+
+</html>
