@@ -403,24 +403,25 @@ h1 {
 /***********Profile pics*********/
 
 .pic1 {
-	background-image: url('../images/cat.jpg');
+	background-image: url('../images/cat-roll.jpg');
 }
 .pic2 {
-	background-image: url('../images/puma.jpg');
+	background-image: url('../images/surprised-cat.jpeg');
 }
 .pic3 {
-	background-image: url('../images/duck.jpg');
+	background-image: url('../images/cool-cat.jpg');
 }
 .pic4 {
-	background-image: url('../images/gorilla.jpg');
+	background-image: url('../images/cutie-pie-cat.jpg');
 }
 .pic5 {
-	background-image: url('../images/delorean.png');
-	background-size: contain;
-	background-repeat: no-repeat;
+	background-image: url('../images/rabbit-cat.jpg');
+}
+.pic6 {
+	background-image: url('../images/hidden-cat.jpg');
 }
 
-.pic1, .pic2, .pic3, .pic4 {
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
