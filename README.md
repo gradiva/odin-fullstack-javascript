@@ -28,3 +28,5 @@ This repository contains most of the uploadable projects for [The Odin Project t
 ### HTML and CSS
 - **Embedding images and a video:** 
   - [YouTube clone](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/01-Basic_HTML_Page-Structure/youtube-clone)
+- **HTML forms:** 
+  - [Mint form clone](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/02-Displaying_And_Inputting_Data/html-forms)
