@@ -13,11 +13,9 @@ This repository contains most of the uploadable projects for [The Odin Project t
   - [Rock Paper Scissors](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/03-JavaScript_Basics/rock-paper-scissors)
   - [Etch-A-Sketch](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/03-JavaScript_Basics/etch-a-sketch)
 - **Backend Ruby:** 
-  - [Test First Ruby](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/04-The_Backend/learning-ruby)
-  - TDD from Test First Ruby
+  - [Test First Ruby](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/04-The_Backend/learning-ruby) TDD from Test First Ruby
 - **Ruby On Rails:** 
-  - [Blogger](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/05-Web_Development_Frameworks/blogger)
-  - Jumpstart Labs' tutorial to build a blog
+  - [Blogger](https://github.com/gradiva/odin-fullstack-javascript/tree/master/01-Web_Development_101/05-Web_Development_Frameworks/blogger) Jumpstart Labs' tutorial to build a blog
 
 ### JavaScript
 - **Objects and Object Constructors:** 
