@@ -28,3 +28,5 @@ This repository contains most of the uploadable projects for [The Odin Project t
   - [YouTube clone](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/01-Basic_HTML_Page-Structure/youtube-clone)
 - **HTML forms:** 
   - [Mint form clone](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/02-Displaying_And_Inputting_Data/html-forms)
+- **Positioning and Floating Points:**
+  - [NY Times clone](https://github.com/gradiva/odin-fullstack-javascript/tree/master/03-HTML_and_CSS/03-CSS/01-Positioning_and_Floating_Elements/ny-times-clone)
