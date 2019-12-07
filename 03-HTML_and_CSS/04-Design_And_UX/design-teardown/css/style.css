@@ -1,0 +1,339 @@
+/******* General ********/
+body {
+  line-height: 1;
+	font-size: 14px; 
+	font-family: 'Roboto', 'Arial', sans-serif;  
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	font-size: 3.3em;
+	padding-top: 30px;
+}
+
+h2 {
+  font-size: 2.3em;
+	padding-top: 20px;
+}
+
+h3 {
+  font-size: 1.8em;
+	padding-top: 10px;
+}
+
+h4 {
+  font-size: 1.3em;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1em;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.1em;
+  padding-top: 10px;
+}
+
+/********* Header *************/
+header {
+  height: auto;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-bar {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  height: 30px;
+  width: 120px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.nav-bar-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar-item {
+  height: 15px;
+  width: 90px;
+  margin-right: 30px;
+  padding: 2px;
+  text-align: center
+}
+
+.nav-bar-button {
+  height: 35px;
+  width: 90px;
+  margin-right: 30px;
+  font-size: small;
+}
+
+/********* Main *********/
+main {
+	height: auto;
+}
+
+/******** First main section **********/
+.main-section {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-content {
+  width: 60vh;
+  line-height: 3.5em;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.signup-button {
+  height: 50px;
+  width: 120px;
+  margin-right: 30px;
+  font-size: medium;
+}
+
+.main-image {
+  height: 400px;
+  width: 600px;
+  margin: 100px 0 80px 0;
+}
+
+/******** Second main section **********/
+.second-main-section {
+  height: 90vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.secondary-image {
+  height: 100px;
+  width: 100px;
+}
+
+.ideas {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.idea {
+  width: 200px;
+  margin: 0 100px 0 100px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/***** Subsections one, two and three ******/
+.sub-section-one, 
+.sub-section-two,
+.sub-section-three {
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.explanation-option {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 60vh;
+  padding-left: 20px;
+}
+
+.image-option {
+  height: 400px;
+  width: 400px;
+  margin: 40px;
+}
+
+/******* Clients and reviews ********/
+.clients {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.brands-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-icon {
+  height: 100px;
+  width: 100px;
+  margin: 0 40px 0 40px;
+}
+
+.client-reviews {
+  margin: 0 40px 0 40px; 
+}
+
+/***** Instructions *****/
+.instructions {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.step {
+  height: 200px;
+  width: 200px;
+  margin: 0 25px 0 25px;
+  text-align: center;
+  text-justify: distribute;
+}
+
+.step-icon {
+  height: 100px;
+  padding: 40px;
+}
+
+/******* Features **********/
+.features-list {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  flex-basis: 30%;
+}
+
+.feature-icon {
+  padding: 80px;
+  margin: 50px 30px 0 120px;
+}
+
+/******* Footer **********/
+.bottom-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bottom-nav-column {
+  width: 200px;
+  height: 400px;
+  margin: 5px 40px 5px 40px;
+}
+
+.social-media-bar {
+  display: flex;
+  margin: 5px 40px 0 40px;
+}
+
+.social-media-bar > * {
+  margin: 5px 30px 5px 30px;
+  text-align: center;
+}
+
+/******** Shades of grey *************/
+.black {
+  background-color: black;
+}
+
+.grey-one {
+  background-color: rgb(40, 40, 40);
+}
+
+.grey-two {
+  background-color: rgb(78, 78, 78);
+}
+
+.grey-three {
+  background-color: rgb(124, 124, 124);
+}
+
+.grey-four {
+  background-color: rgb(167, 167, 167);
+}
+
+.grey-five {
+  background-color: rgb(201, 201, 201);
+}
+
+.grey-six {
+  background-color: rgb(216, 216, 216);
+}
+
+.grey-seven {
+  background-color: rgb(240, 240, 240);
+}
+
+.white {
+  background-color: white;
+}
+
+/********* Text **********/
+
+.normal-text {
+  font-weight: normal;
+}
+
+.bold-text {
+	font-weight: 500;
+}
+
+.black-text {
+  color: black;
+}
+
+.dark-grey-text {
+  color: rgb(78, 78, 78);
+}
+
+.grey-text {
+	color: #848484;
+}
+
+.light-grey-text {
+  color: rgb(201, 201, 201);
+}
+
+.white-text {
+  color: white;
+}
