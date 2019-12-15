@@ -11,4 +11,4 @@ The original exercise suggested to build the heat map for [this site](https://ww
 
 ## View in browser
 
-To view in browser click [here]().
+To view in browser click [here](https://gradiva.github.io/design-teardown/).
