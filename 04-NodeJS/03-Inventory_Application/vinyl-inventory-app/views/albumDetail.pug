@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 Title: #{album.title}
+  
+  p #[strong Artist:] 
+    a(href=album.artist.url) #{album.artist.name}
+  p #[strong Release Date:] #{album.releaseDateFormatted}
+  p #[strong Length:] #{album.length}
+  p #[strong Genre:]&nbsp;
+      
+  hr
+  p
+    a(href=album.url+'/delete') Delete album
+  p
+    a(href=album.url+'/update') Update album

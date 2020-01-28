@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1=title
+
+  form(method='POST' action='')
+    div.form-group
+      label(for='name') Name:
+      input#name.form-control(type='text' placeholder='Artist Name' name='name' required='true' value=(undefined===artist ? '' : artist.name) )
+      label(for='country') Country:
+      input#country.form-control(type='text' placeholder='Country (origin)' name='country' required='true' value=(undefined===artist ? '' : artist.country))
+    div.form-group
+      label(for='foundationDate') Date of foundation:
+      input#foundationDate.form-control(type='date' name='foundationDate' value=(undefined===artist ? '' : artist.foundationDate) )
+      label(for='dissolutionDate') Date of dissolution:
+      input#dissolutionDate.form-control(type='date' name='dissolutionDate' value=(undefined===artist ? '' : artist.dissolutionDate) )
+    button.btn.btn-primary(type='submit') Submit
+  if errors 
+    ul
+      for error in errors
+        li!= error.msg
