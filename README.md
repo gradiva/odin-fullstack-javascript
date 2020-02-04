@@ -38,5 +38,6 @@ This repository contains most of the uploadable projects for [The Odin Project t
 ### NodeJS
 - **Introduction to NodeJS:**
   - [Basic Informational Site](https://github.com/gradiva/odin-fullstack-javascript/tree/master/04-NodeJS/01-Basic_Informational_Site/basic-informational-site)
+- **Express:**
   - [Mini Message Board](https://github.com/gradiva/odin-fullstack-javascript/tree/master/04-NodeJS/02-Mini_Message_Board/mini-message-board)
   - [Inventory app](https://github.com/gradiva/odin-fullstack-javascript/tree/master/04-NodeJS/03-Inventory_Application/vinyl-inventory-app)
