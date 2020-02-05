@@ -1,0 +1,31 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "## Todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run start",
+    "frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradiva/react-todo.git"
+  },
+  "author": "Leticia Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradiva/react-todo/issues"
+  },
+  "homepage": "https://github.com/gradiva/react-todo#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "now": "^16.7.3"
+  },
+  "engines": {
+    "npm": "6.13.1",
+    "node": "12"
+  }
+}
