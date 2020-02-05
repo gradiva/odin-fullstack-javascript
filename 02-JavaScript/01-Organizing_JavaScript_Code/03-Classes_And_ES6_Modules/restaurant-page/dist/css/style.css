@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* Background */
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content, section {
+  height: 100%;
+  width: 100%;
+}
+
+/* Text */ 
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.tab-text {
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* Nav Bar */
+
+nav {
+  /* margin-top: 10px; */
+  background-color: rgba(250, 250, 250, 0.5);
+  position: absolute;
+  width: 100%;
+}
+
+.navigation-bar {
+  padding: 10px 20px;
+  border: 5px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  cursor: pointer;
+  /* flex: 1 1 auto; */
+}
+
+/* About */
+
+.about-aside {
+  position: absolute;
+  border: 5px solid rgba(0,0,0,0.1);
+  border-top: none;
+  margin-top: 48px;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-aside > * {
+  /* flex: 2 1 auto; */
+}
+
+/* Contact */ 
+
+.contact-container {
+  position: absolute;
+  /* border: 5px solid rgba(0,0,0,0.1); */
+  border-top: none;
+  margin-top: 48px;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+  width: 33%;
+  height: 100%;
+}
+
+.contact-form {
+  border: 1px solid #c7c7c7;
+  width: 100%;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 20px;
+
+  display: flex;
+  flex-flow: column wrap; 
+}
+
+form .contact-form-field {
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  line-height: 18px;
+  cursor: text;
+}
+
+form .contact-form-label {
+  height: 28px;;
+}
+
+.submit-button {
+  height: 30px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Home */ 
+
+section .header {
+  position: absolute;
+  width: 100%;
+  border: 5px solid rgba(0,0,0,0.1);
+  margin-top: 250px;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+header > * {
+  flex: 0 1 15%; 
+  align-self: center;
+}
+
+/* Location */
+
+.location-aside {
+  position: absolute;
+  width: 100%;
+  border: 5px solid rgba(0,0,0,0.1);
+  margin-top: 150px;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.location-aside > * {
+  align-self: center;
+}
+
+.map-container {
+  width: 600px;
+  height: 300px;
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+/* Menu */
+
+.menu-aside {
+  position: absolute;
+  border: 5px solid rgba(0,0,0,0.1);
+  border-top: none;
+  margin-top: 48px;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+  width: 50%;
+  height: 100%;
+}
+
+.menu-table {
+  margin-top: 80px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.menu-column {
+  flex: 2 0 33%;
+}
+
+.food-type-text {
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.menu-text {
+  padding: 10px;
+  font-style: italic;
+}
