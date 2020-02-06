@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(260deg, #FEDCD2 0%, #BFD8D2 100%); 
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0; 
+}
+
+/* DC9239   F0C5B8    FEDCD2    BFD8D2 */

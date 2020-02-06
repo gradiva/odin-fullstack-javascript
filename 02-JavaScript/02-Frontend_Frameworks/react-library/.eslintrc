@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-alert": "off",
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "object-curly-newline": "off",
+    "react/forbid-prop-types": "off"
+  },
+}
