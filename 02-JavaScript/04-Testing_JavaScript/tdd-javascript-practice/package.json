@@ -1,0 +1,42 @@
+{
+  "name": "tdd-javascript-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/*/*.test.js",
+    "lint": "eslint src --fix "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradiva/tdd-javascript-practice.git"
+  },
+  "author": "Leticia Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradiva/tdd-javascript-practice/issues"
+  },
+  "homepage": "https://github.com/gradiva/tdd-javascript-practice#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
